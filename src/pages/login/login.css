@@ -1,0 +1,75 @@
+.login{
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(81, 103, 72, 0.2),
+    rgba(25, 33, 22, 0.2)
+  ),url('../../assets/image/loginbg.jpg');
+    background-size: cover;
+}
+
+.login-title{
+    font-size: 60px;
+    margin: 10px 0px;
+    color: rgba(255, 255, 255, 0.871);
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient( rgba(151, 201, 129, 0.2),
+    rgba(151, 201, 129, 0.2)
+  );
+  padding:120px;
+  border-radius: 10px;
+}
+.input-title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.871);
+}
+
+.login-input{
+    width: 300px;
+    padding: 10px 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+}
+
+
+.login-btn{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    background: #009a57;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.registerbtn{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    background: #9a0017;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

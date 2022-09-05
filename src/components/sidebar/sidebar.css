@@ -1,0 +1,65 @@
+.sidebar{
+    flex: 3;
+}
+.sidebar-container{
+    margin: 30px;
+}
+.sidebar-title {
+    display: flex;
+    /* margin: 40px; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Varela', sans-serif;
+    border-top: 1px solid #a7a4a4;
+    border-bottom:1px solid #a7a4a4 ;
+}
+.sidebar-title span{
+    padding: 8px 0px;
+}
+.img-sidebar{
+    margin: 25px 0px;
+}
+.img-sidebar img{
+    width: 100%;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.about-me p{
+    margin-bottom: 40px;
+    font-size: 17px;
+    line-height: 22px;
+}
+.category-list{
+    padding-top: 10px;
+}
+.category-ul-list{
+    list-style-type: none;
+   margin-bottom: 30px;
+}
+
+.category-ul-list li{
+    display: inline-block;
+    width: 50%;
+    padding: 10px 0px;
+    font-family: 'Varela', sans-serif;
+}
+
+.icon-social-sidebar{
+    font-size: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+.icon-social-sidebar:hover{
+    transform: scale(1.1);
+
+}
